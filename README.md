@@ -2,7 +2,7 @@
 ## Drone de enviament de subministraments d'emergència
 
 ### Que és _AidDrop_?
-AidDrop és un drone capaç de fer entrega de material i subministraments en casos d'emergències en llocs de dificil accés. 
+AidDrop és un drone capaç de fer entrega de material i subministraments en casos d'emergències en llocs de difícil accés. 
 
 ### Instal·lació del projecte
 -
