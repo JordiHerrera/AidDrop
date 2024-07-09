@@ -30,8 +30,11 @@ Assegurar-se de tenir totes les llibreries necessaries.
 - Blender: Modelatge 3D
 
 ### Diagrama de fluxe
-El següent diagrama mostra les accions que pendria en cada cas pensat el nostre dron.
+Els següents diagrames mostren les accions que pendria en cada cas pensat el nostre dron.
+Inicialment utilitzavem sensors de distància els quals influeixen en la trajectòria de vol, seguint el flux mostrat a continuació:
 
+
+Finalment, al canviar el giroscòpi pel controlador de vol, em reduït l'ús d'aquests sensors, passant a aquest flux algo diferent:
 
 ### Inter-connexió entre dispositius
 Amb fritzing s'ha pogut crear un diagrama que representa la inter-connexió entre els nostres components de hardware. Les connexions s'han dirigit en la major mesura possible a una placa on s'han soldat els cables per crear aquestes inter-connexions que ens interessen.
