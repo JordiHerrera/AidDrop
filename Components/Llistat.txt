@@ -1,0 +1,9 @@
+-Omnibus f4v3s plus
+-Motors brushless
+-Controladors de motor
+-Raspberry Module V2  
+-Raspberry Pi Zero 2 W
+-Bateria LiPo 7,4v
+-Bronzidor
+-Modul GPS GY-NEO6MV2
+-Servomotor
