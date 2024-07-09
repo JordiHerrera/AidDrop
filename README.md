@@ -5,7 +5,8 @@
 AidDrop és un drone capaç de fer entrega de material i subministraments en casos d'emergències en llocs de difícil accés. 
 
 ### Instal·lació del projecte
--
+- Carregar el fitxer cam2.py a la raspberry pi.
+- Assegurar-se de tenir totes les llibreries necessaries.
 
 ### Programari utilitzat
 - Fritzing: 
