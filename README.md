@@ -4,6 +4,7 @@
 - [Que és AidDrop?](#que-és-aiddrop)
 - [Instal·lació del projecte](#installació-del-projecte)
 - [Programari utilitzat](#programari-utilitzat)
+- [Components a destacar](#components-a-destacar)
 - [Diagrama de fluxe](#diagrama-de-fluxe)
 - [Inter-connexió entre dispositius](#inter-connexió-entre-dispositius)
 - [Algorísmica](#algorísmica)
@@ -28,6 +29,25 @@ Assegurar-se de tenir totes les llibreries necessaries.
 - opencv / cv2: Processament d'imatges.
 - pyzbar: Lectura de codis de barres i QR.
 - Blender: Modelatge 3D
+
+### Components a destacar
+Entre tots els components utilitzats aquests son els més destacables:
+
+- Raspberry Pi Zero 2 W
+  
+![Raspberry Pi Zero 2 W](Components/Imatges/Raspberry%20Pi%20Zero%202%20W.jpg)
+
+- Raspberry Module V2
+
+![Raspberry Module V2](Components/Imatges/Raspberry%20Module%20V2.jpg)
+
+- Omnibus f4v3s plus
+  
+![Omnibus f4v3s plus](Components/Imatges/Omnibus%20f4v3s%20plus.jpg)
+
+- Modul GPS GY-NEO6MV2
+  
+![Modul GPS GY-NEO6MV2](Components/Imatges/Modul%20GPS%20GY-NEO6MV2.jpg)
 
 ### Diagrama de fluxe
 Els següents diagrames mostren les accions que pendria el nostre dron en un plantejament inicial del projecte i en la versió final.
