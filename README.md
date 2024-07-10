@@ -21,16 +21,18 @@
 AidDrop és un dron capaç de fer entrega de material i subministraments en casos d'emergències en llocs de difícil accés.
 
 ### Instal·lació del projecte
-Carregar el fitxer cam2.py a la raspberry pi.
+Carregar el fitxer cam3.py a la raspberry pi.
 Assegurar-se de tenir totes les llibreries necessaries.
 
 ### Programari utilitzat
-- Fritzing
+- Fritzing: Diagrama d'inter-connexió de components
 - PyCharm: Edició de codi Python
 - Arduino IDE: Edició de codi Arduino
 - opencv / cv2: Processament d'imatges.
 - pyzbar: Lectura de codis de barres i QR.
-- Blender: Modelatge 3D
+- TinkerCad: Modelatge
+- Betaflight: Proves de controlador de vol i motors
+- Mission Planer: Programació de vol i proves de controlador de vol i motors
 
 ### Components a destacar
 Entre tots els components utilitzats aquests son els més destacables:
