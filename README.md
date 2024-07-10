@@ -65,7 +65,7 @@ Però finalment hem optat per a canviar el giroscòpi per un controlador de vol,
 
 ### Inter-connexió entre dispositius
 Amb fritzing s'ha pogut crear un diagrama que representa la inter-connexió entre els nostres components de hardware. Les connexions s'han dirigit en la major mesura possible a una placa on s'han soldat els cables per crear aquestes inter-connexions que ens interessen.
-
+![img3](https://i.imgur.com/whUJSb5.jpeg)
 
 ### Algorísmica
 #### -Reconeixement de formes humanes
