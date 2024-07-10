@@ -82,7 +82,7 @@ Les connexions a seguir per a realitzar el projecte son:
 - FC: s'alimenta directament de la bateria ja que te reguladors de voltatge. Per tant, BAT del FC a PWR després de l'interruptor i GND de FC a GND de la bateria.
 - Motors Brushless: PWR del motor a PWR del ESC, GND al GND del ESC i el de dades al restant. Si es vol invertir el sentit de gir del motor, es creua GND amb PWR.
 - ESC: Tots els PWR de tots els ESC van directament a bateria (els nostres ESC's aguanten més de 7,4v) i després de l'interruptor, els GND a GND de bateria, i, dels tres cables prims centrals, PWR a 5 volts del FC, GND a GND del FC i el cable blanc a mX del FC (si és motor 1, doncs a m1, si és motor 2, m2...)
-- GPS: GND a GND el FC, PWR a 5v del FC, Rx a TX del FC i Tx a RX del FC. En el nostre cas s'ha configurat el port UART6 per al GPS, per tant, s'utilitza a T6 i R6.
+- GPS: GND a GND el FC, PWR a 5v del FC, Rx a TX del FC i Tx a RX del FC. En el nostre cas s'ha configurat el port UART6 per al GPS, per tant, s'utilitza T6 i R6.
 - RaspBerry: S'alimenta a partir dels 5v i GND del FC. Els pins de transmissió de dades Rx i Tx s'utilitzen com a transmissió de wifi serial al FC. Es configura el port UART1 per a aquesta funcionalitat; Rx i Tx de la RaspBerry a R1 i T1 del FC.
 - Servomotor: es connecta a la RaspBerry; 5 volts, gnd i dades al pin escollit.
 - Brunzidor: es connecta a la RaspBerry; 5 volts a 5 volts i GND a GND.
