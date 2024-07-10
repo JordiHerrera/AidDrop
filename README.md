@@ -109,11 +109,11 @@ Es un simple moviment d'obrir i tancar la pinça, aquest moviment es fa en funci
 #### -Moviment del dron
 El moviment del drone ha estat programat mitjançant mission planner, que és un software de planificació i control de vol. Aquest programa preoveix d'eines tant pel moviment del drone, indicant al FC com ha de reaccionar en tot moment en funció de tots els inputs que rebi durant la missió, com per les probes unitaries dels diferents components del drone.
 #
-###### - Probes unitaries:
+###### -Probes unitaries:
 - GPS: Al connectar el controlador de vol a mission planner es pot comprovar que les posicions llegides pel GPS eren correctes mitjançant el mapa integrat que té l'aplicació.
 - Motors: Hem realitzat probes de motors amb l'objectiu de  poder orientar correctament la seva rotació i la seva distribució acord amb el frimeware instal·lat al FC, evitant possibles errors de hardware que poguessin comprometre l' integritat del drone.
  # 
- ###### - Pla de vol
+ ###### -Pla de vol
 
 - Etapes de vol: Les etapes de vol utilitzades en aquest projecte son: 
     - Enlairament: Etapa on el dorne inicia els motors i s'eleva a una alçada especifica proporcionada prèviament per l'usuari
