@@ -79,3 +79,9 @@ A continuació es mostra el test unitari dels motors amb les respectives hèlixs
 ![gif1](https://i.imgur.com/eAoRxSL.gif)
 <img src="https://i.imgur.com/eAoRxSL.gif" alt="Test unitari dels motors">
 
+![Test unitari dels motors](https://i.imgur.com/eAoRxSL.gif)
+
+<img src="https://i.imgur.com/eAoRxSL.gif" alt="Test unitari dels motors" width="500" height="300">
+
+<a href="https://i.imgur.com/eAoRxSL.gif"><img src="https://i.imgur.com/eAoRxSL.gif" alt="Test unitari dels motors"></a>
+
