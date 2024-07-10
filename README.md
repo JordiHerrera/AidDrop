@@ -1,5 +1,7 @@
 # AidDrop
 
+!(img3)[https://i.imgur.com/3Jg5n3V.jpeg]
+
 ## Continguts
 - [Que és AidDrop?](#que-és-aiddrop)
 - [Instal·lació del projecte](#installació-del-projecte)
