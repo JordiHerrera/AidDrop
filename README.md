@@ -75,3 +75,5 @@ Amb mission planer s'assignen els waypoints que es vol que segueixi el dron, inc
 A continuació es mostra el test unitari dels motors amb les respectives hèlixs en posició òptima respecte l'aerodinàmica:
 
 ![gif1](https://i.imgur.com/eAoRxSL.gif)
+<img src="https://i.imgur.com/eAoRxSL.gif" alt="Test unitari dels motors">
+
