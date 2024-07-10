@@ -62,11 +62,14 @@ En arribar al destí (amb comprovacions periòdiques amb el GPS), es busca una p
 
 El diagrama de flux de la idea principal i general del programa que s'acaba de comentar és el següent:
 
+
 ![img](https://i.imgur.com/NUjBuhI.jpeg)
+
 
 Degut al curt període per a l'entrega, s'utilitza un controlador de vol en comptes de la placa Arduino Nano i el giroscopi, ometent la part dels sensors de distància per modificar la trajectòria lleugerament en cas d'un obstacle imminent. El flux principal del robot ara no consta de sensors, i les comprovacions periòdiques de l'estabilitat del dron es controlen de manera automatitzada.
 
 Aquest seria el diagrama de flux del projecte realitzat finalment:
+
 
 ![img2](https://i.imgur.com/ZjItTtv.jpeg)
 
@@ -74,6 +77,7 @@ Aquest seria el diagrama de flux del projecte realitzat finalment:
 Amb fritzing s'ha pogut crear un diagrama que representa la inter-connexió entre els nostres components de hardware. Les connexions s'han dirigit en la major mesura possible a una placa on s'han soldat els cables per crear aquestes inter-connexions que ens interessen.
 
 ![img3](https://i.imgur.com/whUJSb5.jpeg)
+
 
 FC = Flight Controller
 
