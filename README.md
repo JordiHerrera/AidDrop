@@ -54,12 +54,19 @@ Entre tots els components utilitzats aquests son els més destacables:
 ![Modul GPS GY-NEO6MV2](Components/Imatges/Modul%20GPS%20GY-NEO6MV2.jpg)
 
 ### Diagrama de fluxe
-Els següents diagrames mostren les accions que pendria el nostre dron en un plantejament inicial del projecte i en la versió final.
-Inicialment utilitzavem sensors de distància els quals influeixen en la trajectòria de vol, seguint el flux mostrat a continuació:
+El flux principal del robot consisteix en una sèrie de moviments/desplaçaments, ja siguin horitzontals o verticals, que mouen el dron d'una posició Origen a una posició Destí. S'efectua un reconeixement de persones per deixar un objecte mèdic a la ubicació objectiu i es torna a la posició Origen.
+
+La idea principal era utilitzar la placa Arduino Nano com a controladora de vol juntament amb el giroscopi i els sensors de distància. En cada moviment efectuat pel dron, es comprovaria si hi ha hagut cap variació no esperada en l'eix del dron per tal de corregir-la. S'esquiven els possibles obstacles que es detectin en cada tram.
+
+En arribar al destí (amb comprovacions periòdiques amb el GPS), es busca una persona i, si es troba, es deixa caure un objecte mèdic. Finalment, es torna a la ubicació inicial determinada pel GPS i s'aterrarà.
+
+El diagrama de flux de la idea principal i general del programa que s'acaba de comentar és el següent:
 
 ![img](https://i.imgur.com/NUjBuhI.jpeg)
 
-Però finalment hem optat per a canviar el giroscòpi per un controlador de vol, reduïnt l'ús d'aquests sensors i obtenint aquest flux algo més simple condicionat per aquest controlador:
+Degut al curt període per a l'entrega, s'utilitza un controlador de vol en comptes de la placa Arduino Nano i el giroscopi, ometent la part dels sensors de distància per modificar la trajectòria lleugerament en cas d'un obstacle imminent. El flux principal del robot ara no consta de sensors, i les comprovacions periòdiques de l'estabilitat del dron es controlen de manera automatitzada.
+
+Aquest seria el diagrama de flux del projecte realitzat finalment:
 
 ![img2](https://i.imgur.com/ZjItTtv.jpeg)
 
