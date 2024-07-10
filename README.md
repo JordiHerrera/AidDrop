@@ -129,4 +129,15 @@ Aqui hi ha un enllaç per veure totes les probes unitaries realitzades en el dro
 
 ![gif1](https://i.imgur.com/eAoRxSL.gif)
 
+#
+#### Contribucions: 
+- Jordi Rodriguez
+- Fernando Luis Vilareño
+#
+#### Autors
+- Marc Bardeli
+- Marc Blanquez
+- Jordi Herrera
+- Biel Ramon
+- Òscar Urenda
 
