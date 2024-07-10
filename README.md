@@ -76,4 +76,4 @@ Es un simple moviment d'obrir i tancar la pinça, aquest moviment es fa en funci
 Amb mission planer s'assignen els waypoints que es vol que segueixi el dron, inclosos d'on s'enlaira i on es vol que aterri. El control d'estabilitat i la potència dels motors es farà automaticament durant el vol.
 A continuació es mostra el test unitari dels motors amb les respectives hèlixs en posició òptima respecte l'aerodinàmica:
 
-![gif1](https://i.imgur.com/eAoRxSL.gif)
+![](https://i.imgur.com/eAoRxSL.gif)
