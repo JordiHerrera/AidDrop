@@ -107,8 +107,22 @@ S'utilitza openCV per fer aquest reconeixement, per iniciar el procés, es confi
 Es un simple moviment d'obrir i tancar la pinça, aquest moviment es fa en funció dels resultats del reconeixement de formes humanes, si es detecta una persona, la pinça s'obre i deixa caure el que porti, en cas contrari no s'obrirà.
 
 #### -Moviment del dron
-Amb mission planer s'assignen els waypoints que es vol que segueixi el dron, inclosos d'on s'enlaira i on es vol que aterri. El control d'estabilitat i la potència dels motors es farà automaticament durant el vol.
-A continuació es mostra el test unitari dels motors amb les respectives hèlixs en posició òptima respecte l'aerodinàmica:
+El moviment del drone ha estat programat mitjançant mission planner, que és un software de planificació i control de vol. Aquest programa preoveix d'eines tant pel moviment del drone, indicant al FC com ha de reaccionar en tot moment en funció de tots els inputs que rebi durant la missió, com per les probes unitaries dels diferents components del drone.
+#
+###### - Probes unitaries:
+- GPS: Al connectar el controlador de vol a mission planner es pot comprovar que les posicions llegides pel GPS eren correctes mitjançant el mapa integrat que té l'aplicació.
+- Motors: Hem realitzat probes de motors amb l'objectiu de  poder orientar correctament la seva rotació i la seva distribució acord amb el frimeware instal·lat al FC, evitant possibles errors de hardware que poguessin comprometre l' integritat del drone.
+ # 
+ ###### - Pla de vol
+
+- Etapes de vol: Les etapes de vol utilitzades en aquest projecte son: 
+    - Enlairament: Etapa on el dorne inicia els motors i s'eleva a una alçada especifica proporcionada prèviament per l'usuari
+    - Desplaçament a desti: El drone es mou en linea recta fins a la coordenada indicada com a destí
+    - Desplaçament circular: Sobre un punt es realitza un recorregut circular de radi indicat per l'usuari amb l'objectiu de reconeixer una figura humana.
+    - Desplaçament a origen: Un cop finalitzada la ultima etapa el drone tornara en linea recta fins al punt on ha realitzat l'enlairament i aterrarà 
+- Simulació: Aquesta eina permet poder visualitzar el resultat esperat alhora de programar una missió sense necessitat de realitzar un vol real.
+
+#
 
 ![gif1](https://i.imgur.com/eAoRxSL.gif)
 
