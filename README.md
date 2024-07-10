@@ -69,8 +69,11 @@ Amb fritzing s'ha pogut crear un diagrama que representa la inter-connexió entr
 ![img3](https://i.imgur.com/whUJSb5.jpeg)
 
 FC = Flight Controller
+
 ESC = Electric Speed Controller
+
 PWR = Positive
+
 GND = Ground
 
 
