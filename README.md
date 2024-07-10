@@ -112,6 +112,9 @@ El moviment del drone ha estat programat mitjançant mission planner, que és un
 #### -Probes unitaries:
 - GPS: Al connectar el controlador de vol a mission planner es pot comprovar que les posicions llegides pel GPS eren correctes mitjançant el mapa integrat que té l'aplicació.
 - Motors: Hem realitzat probes de motors amb l'objectiu de  poder orientar correctament la seva rotació i la seva distribució acord amb el frimeware instal·lat al FC, evitant possibles errors de hardware que poguessin comprometre l' integritat del drone.
+  
+Aqui hi ha un enllaç per veure totes les probes unitaries realitzades en el drone:
+[https://www.youtube.com/watch?v=jxWcWve5M-k](https://www.youtube.com/watch?v=jxWcWve5M-k)
  # 
 #### -Pla de vol
 
@@ -126,4 +129,4 @@ El moviment del drone ha estat programat mitjançant mission planner, que és un
 
 ![gif1](https://i.imgur.com/eAoRxSL.gif)
 
-[https://www.youtube.com/watch?v=jxWcWve5M-k](https://www.youtube.com/watch?v=jxWcWve5M-k)
+
