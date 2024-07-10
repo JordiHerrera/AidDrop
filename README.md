@@ -65,6 +65,7 @@ Però finalment hem optat per a canviar el giroscòpi per un controlador de vol,
 
 ### Inter-connexió entre dispositius
 Amb fritzing s'ha pogut crear un diagrama que representa la inter-connexió entre els nostres components de hardware. Les connexions s'han dirigit en la major mesura possible a una placa on s'han soldat els cables per crear aquestes inter-connexions que ens interessen.
+
 ![img3](https://i.imgur.com/whUJSb5.jpeg)
 
 ### Algorísmica
@@ -78,5 +79,6 @@ Es un simple moviment d'obrir i tancar la pinça, aquest moviment es fa en funci
 Amb mission planer s'assignen els waypoints que es vol que segueixi el dron, inclosos d'on s'enlaira i on es vol que aterri. El control d'estabilitat i la potència dels motors es farà automaticament durant el vol.
 A continuació es mostra el test unitari dels motors amb les respectives hèlixs en posició òptima respecte l'aerodinàmica:
 
+![gif1](https://i.imgur.com/eAoRxSL.gif)
 
 [https://www.youtube.com/watch?v=jxWcWve5M-k](https://www.youtube.com/watch?v=jxWcWve5M-k)
